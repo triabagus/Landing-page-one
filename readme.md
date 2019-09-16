@@ -1,5 +1,5 @@
 # Landing Page One
-    Landing page with sass praprocessor.
+Landing page with sass praprocessor.
 # Installation Sass 
 1. Linux
 ```bash
