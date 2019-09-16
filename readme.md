@@ -20,6 +20,10 @@ example:
     sass src/sass:dist/css 
     sass --watch src/sass:dist/css
 ```
+3. Satu style dibagi didalam folder bagian
+```bash
+    sass --watch src/sass/style.scss dist/css/style.css
+```
 >SASS Watch adalah fitur yang diberikan SASS untuk memantau perubahan pada file.
 
 >Cara menggunakannya dengan memberikan flag --watch pada perintah kompilasi SASS.

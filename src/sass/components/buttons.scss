@@ -1,0 +1,30 @@
+%btn {
+    font-family: Manjari;
+    border-radius: 20px;
+    text-decoration: none;
+    color: $cw;
+    font-size: 12px;
+    margin: 5px;
+    padding: 5px 15px;
+    border: 0px;
+}
+
+.btn-success {
+    @extend %btn;
+    background-color: green;
+}
+
+.btn-danger {
+    @extend %btn;
+    background-color: red;
+}
+
+.btn-warning {
+    @extend %btn;
+    background-color: yellow;
+}
+
+.btn-default {
+    @extend %btn;
+    background-color: aquamarine;
+}
