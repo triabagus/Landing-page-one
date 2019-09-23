@@ -1,24 +1,55 @@
 /*
 * Make Variable
 */
-$border-default: 4px solid black;
-$bg-default:gold;
+$color-dark:#3F3D56;
 $cw:white;
 
-.title {
-    border: {
-        top: $border-default;
-        bottom: $border-default;
+.tria-title {
+    font-family: 'Marck Script', cursive;
+    font-size: 55px;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 6rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: $color-dark;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .tria-title:hover {
+    color: $color-dark;
+}
+
+.navbar-brand:focus,
+.tria-title:hover {
+    text-decoration: none;
+}
+
+.tria-navbar {
+    margin-left: 15rem;
+
+    .tria-link {
+        margin: 0 30px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+
+#tria-title-hero {
+    padding: 150px 0;
+}
+
+
+// Responsive Script
+
+@media only screen and (max-width: 600px) {
+    .tria-navbar {
+        margin: 0;
+
+        .tria-link {
+            margin: 0;
+        }
     }
 
-    background-color: $bg-default;
-    color:$cw;
-    text-align: center;
-    padding: 60px;
-    font-family:Manjari;
-
-    .slogan {
-        font-size: 18px;
-        color: $cw;
-    }
 }
