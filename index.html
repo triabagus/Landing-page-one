@@ -19,44 +19,116 @@
 
 <body>
     <!-- Header -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="tria-navbar navbar-nav">
-                    <a class="nav-item nav-link tria-link active" href="#">About</a>
-                    <a class="nav-item nav-link tria-link active" href="#">Project</a>
-                    <a class="nav-item nav-link tria-link active" href="#">Contact</a>
+    <div id="tria-header">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="tria-navbar navbar-nav">
+                        <a class="nav-item nav-link tria-link active" href="#">About</a>
+                        <a class="nav-item nav-link tria-link active" href="#">Project</a>
+                        <a class="nav-item nav-link tria-link active" href="#">Contact</a>
+                    </div>
                 </div>
-            </div>
-            <a class="tria-title" href="#">Tria Landing</a>
-        </nav>
-    </header>
-    <!-- End Header -->
-    <!-- Content here -->
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="tria-image">
-                    <img src="dist/Image/Group.png" alt="hero image tria">
+                <a class="tria-title" href="#">Tria Landing</a>
+            </nav>
+        </header>
+        <!-- End Header -->
+        <!-- Content here -->
+
+        <!-- Hero Image -->
+        <div id="tria-container" class="container-fluid p-0">
+            <div class="row m-0">
+                <div class="col p-0">
+                    <div class="tria-image">
+                        <img src="dist/Image/Group.png" alt="hero image tria">
+                    </div>
                 </div>
-            </div>
-            <div class="col">
-                <div id="tria-title-hero">
-                    <h1>Hi ! I am Tria Bagus A Web Developer</h1>
-                    <p>
-                        My first landing page was made with the ability of my own designer.
-                        If you are interested in my other works.
-                        Can be seen in my portfolio.
-                    </p>
-                    <button class="btn-success">Look For Me</button>
+                <div class="col ">
+                    <div id="tria-title-hero">
+                        <h1>Hi !</h1>
+                        <h1>I am Tria Bagus </h1>
+                        <h1>A Web Developer</h1>
+                        <p>
+                            My first landing page was made with the ability of my own designer.
+                        </p>
+                        <p>
+                            If you are interested in my other works.
+                            Can be seen in my portfolio.
+                        </p>
+                        <button class="btn-success">Look For Me</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- End Hero Image -->
+
+    <!-- Skill -->
+    <div id="tria-skill" class="container-fluid p-0">
+        <div class="row m-0">
+            <div class="col-9 pl-5">
+                <h1>Important</h1>
+                <h1>attribute of my skill</h1>
+                <hr class="tria-line">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <div id="tria-card" class="card border-light mt-3 mb-5 mx-3">
+                                <img id="tria-image-skill" class="card-img-top"
+                                    src="dist/Image/Undraw/undraw_Designer_by46.svg" alt="Card image">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center text-center">Designer</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm">
+                            <div id="tria-card" class="card border-light m-3">
+                                <img id="tria-image-skill" class="card-img-top"
+                                    src="dist/Image/Undraw/undraw_usability_testing_2xs4.svg" alt="Card image">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">User Testing</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm">
+                            <div id="tria-card" class="card border-light m-3">
+                                <img id="tria-image-skill" class="card-img-top"
+                                    src="dist/Image/Undraw/undraw_web_development_w2vv.svg" alt="Card image">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Web Developer</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div id="tria-card" class="card border-light m-3">
+                                <img id="tria-image-skill" class="card-img-top"
+                                    src="dist/Image/Undraw/undraw_wordpress_utxt.svg" alt="Card image">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Wordpress Developer</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-3 p-0">
+                <img id="tria-skill-heroleft" src="dist/Image/skill-hero.png" alt="Skill Hero">
+            </div>
+        </div>
+    </div>
+    <!-- End Skill -->
+
     <!-- Optional JavaScript -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
